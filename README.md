@@ -85,8 +85,8 @@ Additionally, the method AdaTrans from our paper *"AdaTrans: Feature-wise and Sa
 
 ## Contact
 
-Contributor: Zelin He
- [@zbh5185](zbh5185@psu.edu)
+Contributor: Zelin He  
+Email: [zbh5185@psu.edu](mailto:zbh5185@psu.edu)
 
 
 ## License
