@@ -63,6 +63,8 @@ TransFusion = function(dataset, vlambda=NULL, debias=F){
   
   # Output:
   # res: a list containing the following elements:
+  #   coef: final solution vector (beta) after running the one-step algorithm 
+  #   coefplus: final solution vector (beta) after running the two-step algorithm
   return(res)
 }
 
@@ -157,6 +159,7 @@ DTransFusion = function(dataset, estimator_type=c("debiased_lasso", "scad"), vla
   
   # Output:
   # res: a list containing the following elements:
-  #   x: final solution vector (beta) after running the algorithm without the debiased step
+  #   coef: final solution vector (beta) after running the one-step algorithm 
+  #   coefplus: final solution vector (beta) after running the two-step algorithm
   return(res)
 }
